@@ -13,6 +13,16 @@
 在线演示为了安全考虑，不提供API接口服务，需要准备好自己的API服务地址，并且是HTTPS的，没有HTTPS的服务，可以本地运行，首次打开时会要求设置API地址
 
 
+## 技术点
+* vue3
+* vue-router
+* typescript
+* axios
+* [pinia 数据状态管理](https://pinia.vuejs.org/zh/introduction.html)
+* vite 打包
+* [tailwindcss](https://www.tailwindcss.cn/docs/installation)
+
+
 ## 本地安装
 
 ```
@@ -27,6 +37,11 @@ yarn run dev
 需要运行API服务才能正常体验
 
 [开发文档](https://binaryify.github.io/NeteaseCloudMusicApi)
+
+```
+npx NeteaseCloudMusicApi
+
+```
 
 
 ## UI
